@@ -1,0 +1,22 @@
+version: '3.7'
+
+volumes:
+  mongodb_data:
+
+services:
+  
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=adminpassword
+    volumes:
+      - mongodb_data:/data/db
+
+  siege:
+    image: yokogawa/siege
+    container_name: siege
+    command: siege -c100 -t60s http://host.docker.internal:5000/save

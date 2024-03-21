@@ -1,0 +1,79 @@
+Concurrency == 10
+
+siege  | ** SIEGE 3.0.5
+siege  | ** Preparing 10 concurrent users for battle.
+siege  | The server is now under siege...
+siege  | Lifting the server siege...      done.
+siege  | 
+siege  | Transactions:                  1181 hits
+siege  | Availability:                100.00 %
+siege  | Elapsed time:                 59.82 secs
+siege  | Data transferred:              0.03 MB
+siege  | Response time:                 0.01 secs
+siege  | Transaction rate:             19.74 trans/sec
+siege  | Throughput:                    0.00 MB/sec
+siege  | Concurrency:                   0.12
+siege  | Successful transactions:        1181
+siege  | Failed transactions:              0
+siege  | Longest transaction:           0.70
+siege  | Shortest transaction:          0.00
+
+Concurrency == 25
+
+siege  | ** SIEGE 3.0.5
+siege  | ** Preparing 25 concurrent users for battle.
+siege  | The server is now under siege...
+siege  | Lifting the server siege...      done.
+siege  |
+siege  | Transactions:                  2889 hits
+siege  | Availability:                100.00 %
+siege  | Elapsed time:                 59.73 secs
+siege  | Data transferred:              0.07 MB
+siege  | Response time:                 0.01 secs
+siege  | Transaction rate:             48.37 trans/sec
+siege  | Throughput:                    0.00 MB/sec
+siege  | Concurrency:                   0.54
+siege  | Successful transactions:        2889
+siege  | Failed transactions:              0
+siege  | Longest transaction:           1.26
+siege  | Shortest transaction:          0.00
+
+Concurrency == 50
+
+siege  | ** SIEGE 3.0.5
+siege  | ** Preparing 50 concurrent users for battle.
+siege  | The server is now under siege...
+siege  | Lifting the server siege...      done.
+siege  |
+siege  | Transactions:                  5899 hits
+siege  | Availability:                100.00 %
+siege  | Elapsed time:                 59.49 secs
+siege  | Data transferred:              0.15 MB
+siege  | Response time:                 0.01 secs
+siege  | Transaction rate:             99.16 trans/sec
+siege  | Throughput:                    0.00 MB/sec
+siege  | Concurrency:                   1.21
+siege  | Successful transactions:        5899
+siege  | Failed transactions:              0
+siege  | Longest transaction:           1.31
+siege  | Shortest transaction:          0.00
+
+Concurrency == 100
+
+siege  | ** SIEGE 3.0.5
+siege  | ** Preparing 100 concurrent users for battle.
+siege  | The server is now under siege...
+siege  | Lifting the server siege...      done.
+siege  |
+siege  | Transactions:                 11547 hits
+siege  | Availability:                100.00 %
+siege  | Elapsed time:                 59.87 secs
+siege  | Data transferred:              0.30 MB
+siege  | Response time:                 0.01  
+siege  | Transaction rate:            192.87 trans/sec
+siege  | Throughput:                    0.00 MB/sec
+siege  | Concurrency:                   2.54
+siege  | Successful transactions:       11547
+siege  | Failed transactions:              0
+siege  | Longest transaction:           1.42
+siege  | Shortest transaction:          0.00
